@@ -1,16 +1,16 @@
 <template>
   <div id="app-container">
-    <nav class="flex w-screen flex-nowrap">
-      <a @click.stop.prevent="navigateTo('exignorantia')" href="#" class="w-24 h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
-        <p class="-rotate-90">
+    <nav class="flex w-screen flex-wrap md:flex-nowrap">
+      <a @click.stop.prevent="navigateTo('exignorantia')" href="#" class="block w-full h-[64px] md:w-24 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
+        <p class="md:-rotate-90">
           [EX IGNORANTIA]
         </p>
       </a>
-      <div v-if="currentRoute === 'exignorantia'" id="main" class="w-full h-screen flex">
-        <div id="fullImage" class="grayscale hover:grayscale-0 w-1/2 h-screen bg-no-repeat bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center">
+      <div v-if="currentRoute === 'exignorantia'" id="main" class="md:w-full md:h-screen md:flex">
+        <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center">
           <img src="/img/logos-home.png" alt="" class="w-48 h-auto" />
         </div>
-        <div id="sampleRoute" class="w-1/2 overflow-auto h-screen">
+        <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 overflow-auto md:h-screen">
 
           <div class="p-16">
             <p class="mb-4">
@@ -40,16 +40,16 @@
           </div>
         </div>
       </div>
-      <a @click.stop.prevent="navigateTo('cogito')" href="#" class="w-24 h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
-        <p class="-rotate-90">
+      <a @click.stop.prevent="navigateTo('cogito')" href="#" class="block w-full h-[64px] md:w-24 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
+        <p class="md:-rotate-90">
           [COGITO]
         </p>
       </a>
-      <div v-if="currentRoute === 'cogito'" id="main" class="w-full h-screen flex">
-        <div id="fullImage" class="grayscale hover:grayscale-0 w-1/2 h-screen bg-no-repeat bg-cover bg-[url('/img/bg-cogito.jpg')] flex justify-center items-center">
+      <div v-if="currentRoute === 'cogito'" id="main" class="md:w-full md:h-screen md:flex">
+        <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-cogito.jpg')] flex justify-center items-center">
           <img src="/img/logo-cogito.png" alt="" class="w-48 h-auto" />
         </div>
-        <div id="sampleRoute" class="w-1/2 overflow-auto h-screen">
+        <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 overflow-auto md:h-screen">
 
           <div class="p-16">
             <p class="mb-4">
@@ -78,16 +78,16 @@
           </div>
         </div>
       </div>
-      <a @click.stop.prevent="navigateTo('nihilo')" href="#" class="w-24 h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
-        <p class="-rotate-90">
+      <a @click.stop.prevent="navigateTo('nihilo')" href="#" class="block w-full h-[64px] md:w-24 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
+        <p class="md:-rotate-90">
           [NIHILO]
         </p>
       </a>
-      <div v-if="currentRoute === 'nihilo'" id="main" class="w-full h-screen flex">
-        <div id="fullImage" class="grayscale hover:grayscale-0 w-1/2 h-screen bg-no-repeat bg-cover bg-[url('/img/bg-nihilo.jpg')] flex justify-center items-center">
+      <div v-if="currentRoute === 'nihilo'" id="main" class="md:w-full md:h-screen md:flex">
+        <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-nihilo.jpg')] flex justify-center items-center">
           <img src="/img/logo-nihilo.png" alt="" class="w-48 h-auto" />
         </div>
-        <div id="sampleRoute" class="w-1/2 overflow-auto h-screen">
+        <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 overflow-auto md:h-screen">
 
           <div class="p-16">
             <p class="mb-4">
@@ -121,15 +121,15 @@
           </div>
         </div>
       </div>
-      <a @click.stop.prevent="navigateTo('extras')" href="#" class="w-24 h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
-        <p class="-rotate-90">
+      <a @click.stop.prevent="navigateTo('extras')" href="#" class="block w-full h-[64px] md:w-24 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
+        <p class="md:-rotate-90">
           [EXTRAS]
         </p>
       </a>
-      <div v-if="currentRoute === 'extras'" id="main" class="w-full h-screen flex">
-        <div id="fullImage" class="grayscale hover:grayscale-0 w-1/2 h-screen bg-no-repeat bg-cover bg-[url('/img/bg-extras.jpg')] flex justify-center items-center">
+      <div v-if="currentRoute === 'extras'" id="main" class="md:w-full md:h-screen md:flex">
+        <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-extras.jpg')] flex justify-center items-center">
         </div>
-        <div id="sampleRoute" class="w-1/2 overflow-auto h-screen">
+        <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 overflow-auto md:h-screen">
 
           <div class="p-16">
             <p class="mb-4">
@@ -186,15 +186,15 @@
           </div>
         </div>
       </div>
-      <a @click.stop.prevent="navigateTo('contato')" href="#" class="w-24 h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
-        <p class="-rotate-90">
+      <a @click.stop.prevent="navigateTo('contato')" href="#" class="block w-full h-[64px] md:w-24 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black">
+        <p class="md:-rotate-90">
           [CONTATO]
         </p>
       </a>
-      <div v-if="currentRoute === 'contato'" id="main" class="w-full h-screen flex">
-        <div id="fullImage" class="grayscale hover:grayscale-0 w-1/2 h-screen bg-no-repeat bg-cover bg-[url('/img/bg-contato.jpg')] flex justify-center items-center">
+      <div v-if="currentRoute === 'contato'" id="main" class="w-full md:w-full md:h-screen md:flex">
+        <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-contato.jpg')] flex justify-center items-center">
         </div>
-        <div id="sampleRoute" class="w-1/2 overflow-auto h-screen">
+        <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 overflow-auto md:h-screen">
           <div class="p-16">
             <p class="mb-4">
               [SEJA PARTE DA COMUNIDADE]
