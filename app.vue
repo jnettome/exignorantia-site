@@ -93,12 +93,9 @@ const checkRoute = (path) => {
 // immediate
 checkRoute(router.currentRoute.value.path)
 
-// function navigateTo(routeName) {
-//   currentRoute.value = routeName
-//   if (routeName === 'exignorantia') {
-//     router.push({ path: '/' })
-//     return
-//   }
-//   router.push({ path: routeName })
-// }
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - EX.IGNORANTIA` : 'EX.IGNORANTIA';
+  }
+})
 </script>

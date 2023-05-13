@@ -1,8 +1,8 @@
 <template>
-  <div id="main" class="md:w-full md:h-screen md:flex overflow-auto">
+  <div id="main" class="md:w-full md:h-screen md:flex overflow-auto md:overflow-hidden">
     <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-extras.jpg')] flex justify-center items-center">
     </div>
-    <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 md:h-screen">
+    <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 md:h-screen md:overflow-auto">
 
       <div class="p-4 md:p-16 border-b">
         <p class="mb-4">
@@ -60,3 +60,9 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Extras'
+})
+</script>
