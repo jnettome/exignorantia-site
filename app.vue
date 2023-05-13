@@ -1,68 +1,68 @@
 <template>
   <div id="app-container">
     <nav class="flex w-screen flex-wrap md:flex-nowrap overflow-hidden">
-      <a @click.stop.prevent="navigateTo('exignorantia')" href="#" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
-        <p class="md:-rotate-90 block w-full h-auto text-center">
+      <NuxtLink to="/" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+        <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [EX IGNORANTIA]
         </p>
-      </a>
+      </NuxtLink>
       <transition
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'exignorantia'">
+        <div v-if="currentRoute === 'exignorantia'" class="w-full">
           <NuxtPage />
         </div>
       </transition>
-      <a @click.stop.prevent="navigateTo('cogito')" href="#" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
-        <p class="md:-rotate-90 block w-full h-auto text-center">
+      <NuxtLink to="/cogito" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+        <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [COGITO]
         </p>
-      </a>
+      </NuxtLink>
       <transition
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'cogito'">
+        <div v-if="currentRoute === 'cogito'" class="w-full">
           <NuxtPage />
         </div>
       </transition>
-      <a @click.stop.prevent="navigateTo('nihilo')" href="#" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
-        <p class="md:-rotate-90 block w-full h-auto text-center">
+      <NuxtLink to="/nihilo" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+        <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [NIHILO]
         </p>
-      </a>
+      </NuxtLink>
       <transition
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'nihilo'">
+        <div v-if="currentRoute === 'nihilo'" class="w-full">
           <NuxtPage />
         </div>
       </transition>
-      <a @click.stop.prevent="navigateTo('extras')" href="#" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
-        <p class="md:-rotate-90 block w-full h-auto text-center">
+      <NuxtLink to="/extras" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+        <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [EXTRAS]
         </p>
-      </a>
+      </NuxtLink>
       <transition
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'extras'">
+        <div v-if="currentRoute === 'extras'" class="w-full">
           <NuxtPage />
         </div>
       </transition>
-      <a @click.stop.prevent="navigateTo('contato')" href="#" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
-        <p class="md:-rotate-90 block w-full h-auto text-center">
+      <NuxtLink to="/contato" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+        <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [CONTATO]
         </p>
-      </a>
+      </NuxtLink>
       <transition
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'contato'">
+        <div v-if="currentRoute === 'contato'" class="w-full">
           <NuxtPage />
         </div>
       </transition>
@@ -78,12 +78,27 @@ const router = useRouter()
 
 const currentRoute = ref('exignorantia')
 
-function navigateTo(routeName) {
-  currentRoute.value = routeName
-  if (routeName === 'exignorantia') {
-    router.push({ path: '/' })
-    return
+watch(() => router.currentRoute.value.path, (path) => {
+  checkRoute(path)
+})
+
+const checkRoute = (path) => {
+  currentRoute.value = path.replace('/', '')
+
+  if (currentRoute.value === '') {
+    currentRoute.value = 'exignorantia'
   }
-  router.push({ path: routeName })
 }
+
+// immediate
+checkRoute(router.currentRoute.value.path)
+
+// function navigateTo(routeName) {
+//   currentRoute.value = routeName
+//   if (routeName === 'exignorantia') {
+//     router.push({ path: '/' })
+//     return
+//   }
+//   router.push({ path: routeName })
+// }
 </script>

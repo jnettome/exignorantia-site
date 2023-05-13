@@ -9,12 +9,12 @@
           [SEJA PARTE DA COMUNIDADE]
         </p>
 
-        <nav class="flex">
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            discord
+        <nav class="flex space-x-3">
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/discord.png" alt="discord" />
           </a>
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            twitch
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/twitch.png" alt="twitch" />
           </a>
         </nav>
       </div>
@@ -24,18 +24,18 @@
           [SIGA NOSSAS REDES SOCIAIS]
         </p>
 
-        <nav class="flex">
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            instagram
+        <nav class="flex space-x-3">
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/instagram.png" alt="instagram" />
           </a>
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            youtube
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/youtube.png" alt="youtube" />
           </a>
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            facebook
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/facebook.png" alt="facebook" />
           </a>
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            spotify
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/spotify.png" alt="spotify" />
           </a>
         </nav>
       </div>
@@ -45,12 +45,12 @@
           [ENTRE EM CONTATO]
         </p>
 
-        <nav class="flex">
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            email
+        <nav class="flex space-x-3">
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/email.png" alt="email" />
           </a>
-          <a href="#" class="flex items-center justify-center p-8 bg-white color-black w-16 h-16 rounded-full">
-            whatsapp
+          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/whatsapp.png" alt="whatsapp" />
           </a>
         </nav>
       </div>
