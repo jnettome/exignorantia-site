@@ -21,11 +21,11 @@
             [CONHEÇA NOSSO CATÁLOGO]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://discord.com/invite/zPwepJq" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [SEJA PARTE DA COMUNIDADE NO DISCORD]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://www.catarse.me/nihilorpg" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [CONHEÇA A CAMPANHA DO NOSSO ÚLTIMO LANÇAMENTO]
           </a>
         </div>
@@ -33,3 +33,14 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useSeoMeta({
+  ogTitle: 'EX.IGNORANTIA',
+  ogDescription: 'Ex Ignorantia é um coletivo multidisciplinar e selo independente explorando realidades e narrativas através de RPGs, arte, literatura e worldbuilding.',
+  description: 'Ex Ignorantia é um coletivo multidisciplinar e selo independente explorando realidades e narrativas através de RPGs, arte, literatura e worldbuilding.',
+  ogImage: 'https://exignorantia-site.vercel.app/og.png',
+  twitterCard: 'summary',
+  // twitterCard: 'summary_large_image',
+})
+</script>

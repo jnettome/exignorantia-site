@@ -19,7 +19,7 @@
         </p>
         <div class="block mt-16">
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://drive.google.com/file/d/18xE-HCXfzb7KpoLqy-zmfs8wfUqsSukG/view" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE O STARTER GUIDE GRÁTIS]
           </a>
 
@@ -28,10 +28,10 @@
           </a>
 
           <div class="flex w-full">
-            <a href="#" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black border-r-0">
+            <a href="https://drive.google.com/file/d/1fZ5KnHHatzwhdzkdOxSz6lEjJFJb3sPU/view" target="_blank" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black border-r-0">
               [BAIXE A FICHA]
             </a>
-            <a href="#" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black">
+            <a href="https://open.spotify.com/album/6BR1QponccJHSuR2rAqWlG?si=vuB08Ot6T6eWb9bUF_rKWg" target="_blank" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black">
               [TRILHA OFICIAL]
             </a>
           </div>
@@ -44,5 +44,13 @@
 <script setup>
 useHead({
   title: 'Nihilo'
+})
+useSeoMeta({
+  ogTitle: 'Nihilo - EX.IGNORANTIA',
+  ogDescription: 'Nihilo é um jogo de interpretação de papéis sobre humanos que ultrapassaram as próprias limitações através da Magicka. Nele, o fantástico e o mundano se misturam de maneira orgânica, mesmo que longe do conhecimento geral. ',
+  description: 'Nihilo é um jogo de interpretação de papéis sobre humanos que ultrapassaram as próprias limitações através da Magicka. Nele, o fantástico e o mundano se misturam de maneira orgânica, mesmo que longe do conhecimento geral. ',
+  ogImage: 'https://exignorantia-site.vercel.app/og.png',
+  twitterCard: 'summary',
+  // twitterCard: 'summary_large_image',
 })
 </script>

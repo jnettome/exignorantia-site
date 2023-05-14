@@ -10,10 +10,10 @@
         </p>
 
         <nav class="flex space-x-3">
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://discord.com/invite/zPwepJq" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/discord.png" alt="discord" />
           </a>
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://www.twitch.tv/exignorantia" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/twitch.png" alt="twitch" />
           </a>
         </nav>
@@ -25,16 +25,16 @@
         </p>
 
         <nav class="flex space-x-3">
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://www.instagram.com/ex.ignorantia/" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/instagram.png" alt="instagram" />
           </a>
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://www.youtube.com/@exignorantia" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/youtube.png" alt="youtube" />
           </a>
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://www.facebook.com/ex.ignorantia" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/facebook.png" alt="facebook" />
           </a>
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="https://open.spotify.com/artist/4s5zFEcNLSgtv9j9mjqpnU?si=xUxvbzVQQ663llP7NRDPKA" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/spotify.png" alt="spotify" />
           </a>
         </nav>
@@ -61,5 +61,13 @@
 <script setup>
 useHead({
   title: 'Contato'
+})
+useSeoMeta({
+  ogTitle: 'Contato - EX.IGNORANTIA',
+  ogDescription: 'Ex Ignorantia é um coletivo multidisciplinar e selo independente explorando realidades e narrativas através de RPGs, arte, literatura e worldbuilding.',
+  description: 'Ex Ignorantia é um coletivo multidisciplinar e selo independente explorando realidades e narrativas através de RPGs, arte, literatura e worldbuilding.',
+  ogImage: 'https://exignorantia-site.vercel.app/og.png',
+  twitterCard: 'summary',
+  // twitterCard: 'summary_large_image',
 })
 </script>

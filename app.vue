@@ -98,4 +98,9 @@ useHead({
     return titleChunk ? `${titleChunk} - EX.IGNORANTIA` : 'EX.IGNORANTIA';
   }
 })
+
+useSeoMeta({
+  ogImage: 'https://exignorantia-site.vercel.app/og.png',
+  twitterCard: 'summary',
+})
 </script>

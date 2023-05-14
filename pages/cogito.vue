@@ -27,7 +27,7 @@
             [ENCOMENDE SEU COREBOOK FÍSICO OU DIGITAL]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://drive.google.com/file/d/1dQNAAq8eojkGeLsLO1o50xXE5dH5M8jS/view" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE A FICHA EDITÁVEL GRÁTIS]
           </a>
         </div>
@@ -39,5 +39,13 @@
 <script setup>
 useHead({
   title: 'Cogito'
+})
+useSeoMeta({
+  ogTitle: 'Cogito - EX.IGNORANTIA',
+  ogDescription: 'Cogito é um jogo sobre Anjos, Caídos e Demônios vivendo entre a humanidade. Você não os vê, não é? Comendo nos mesmos restaurantes imundos, bebendo da mesma água clorada, pagando os mesmos impostos. Você não os vê, vê?',
+  description: 'Cogito é um jogo sobre Anjos, Caídos e Demônios vivendo entre a humanidade. Você não os vê, não é? Comendo nos mesmos restaurantes imundos, bebendo da mesma água clorada, pagando os mesmos impostos. Você não os vê, vê?',
+  ogImage: 'https://exignorantia-site.vercel.app/og.png',
+  twitterCard: 'summary',
+  // twitterCard: 'summary_large_image',
 })
 </script>
