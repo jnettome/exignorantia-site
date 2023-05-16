@@ -1,7 +1,7 @@
 <template>
   <div id="app-container">
     <nav class="flex w-screen flex-wrap md:flex-nowrap overflow-hidden">
-      <NuxtLink to="/" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+      <NuxtLink to="/" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border border-b-0 p-4 hover:bg-white hover:text-black transition md:border-b md:border-r-0">
         <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [EX IGNORANTIA]
         </p>
@@ -10,11 +10,11 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'exignorantia'" class="w-full">
+        <div v-if="currentRoute === 'exignorantia'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
-      <NuxtLink to="/cogito" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+      <NuxtLink to="/cogito" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border border-b-0 p-4 hover:bg-white hover:text-black transition md:border-b md:border-r-0">
         <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [COGITO]
         </p>
@@ -23,11 +23,11 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'cogito'" class="w-full">
+        <div v-if="currentRoute === 'cogito'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
-      <NuxtLink to="/nihilo" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+      <NuxtLink to="/nihilo" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border border-b-0 p-4 hover:bg-white hover:text-black transition md:border-b md:border-r-0">
         <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [NIHILO]
         </p>
@@ -36,11 +36,11 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'nihilo'" class="w-full">
+        <div v-if="currentRoute === 'nihilo'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
-      <NuxtLink to="/extras" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+      <NuxtLink to="/extras" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border border-b-0 p-4 hover:bg-white hover:text-black transition md:border-b md:border-r-0">
         <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [EXTRAS]
         </p>
@@ -49,11 +49,11 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'extras'" class="w-full">
+        <div v-if="currentRoute === 'extras'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
-      <NuxtLink to="/contato" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition">
+      <NuxtLink to="/contato" class="block w-full h-[32px] relative z-10 md:w-16 md:h-screen flex items-center justify-center border p-4 hover:bg-white hover:text-black transition md:border-b md:border-r-0">
         <p class="md:-rotate-90 block w-48 whitespace-nowrap text-center">
           [CONTATO]
         </p>
@@ -62,7 +62,7 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'contato'" class="w-full">
+        <div v-if="currentRoute === 'contato'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
@@ -70,7 +70,7 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'catalogo'" class="w-full">
+        <div v-if="currentRoute === 'catalogo'" class="w-full border-t md:border-t-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>

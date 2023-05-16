@@ -1,7 +1,8 @@
 <template>
   <div id="main" class="md:w-full md:h-screen md:flex overflow-auto md:overflow-hidden">
     <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center">
-      <img src="/img/logos-home.png" alt="" class="w-48 h-auto" />
+      <img src="/img/logos-home.png" alt="" class="w-48 h-auto hidden md:block" />
+      <img src="/img/logo-horizontal.png" alt="" class="w-full h-auto md:hidden" />
     </div>
     <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 md:h-screen md:overflow-auto">
       <div class="p-4 md:p-16">
@@ -17,9 +18,9 @@
             [PACOTE INTRODUTÓRIO FREE]
           </a>
 
-          <a v-if="false" href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <router-link to="/catalogo" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [CONHEÇA NOSSO CATÁLOGO]
-          </a>
+          </router-link>
 
           <a href="https://discord.com/invite/zPwepJq" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [SEJA PARTE DA COMUNIDADE NO DISCORD]
