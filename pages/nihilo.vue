@@ -1,6 +1,6 @@
 <template>
   <div id="main" class="md:w-full md:h-screen md:flex overflow-auto md:overflow-hidden">
-    <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-nihilo.jpg')] flex justify-center items-center">
+    <div id="fullImage" :class="imageClass">
       <div class="p-12">
         <img src="/img/logo-nihilo.png" alt="" class="w-full h-auto" />
       </div>
@@ -53,4 +53,10 @@ useSeoMeta({
   twitterCard: 'summary',
   // twitterCard: 'summary_large_image',
 })
+
+const imageClass = ref('')
+imageClass.value = "hover:grayscale-0 h-48 overflow-hidden md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-nihilo.jpg')] flex justify-center items-center"
+setTimeout(() => {
+  imageClass.value = "grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-nihilo.jpg')] flex justify-center items-center"
+}, 250)
 </script>

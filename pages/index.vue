@@ -1,6 +1,6 @@
 <template>
   <div id="main" class="md:w-full md:h-screen md:flex overflow-auto md:overflow-hidden">
-    <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center">
+    <div id="fullImage" :class="imageClass">
       <img src="/img/logos-home.png" alt="" class="w-48 h-auto hidden md:block" />
       <img src="/img/logo-horizontal.png" alt="" class="w-full h-auto md:hidden p-8" />
     </div>
@@ -48,4 +48,10 @@ useSeoMeta({
   twitterCard: 'summary',
   // twitterCard: 'summary_large_image',
 })
+
+const imageClass = ref('')
+imageClass.value = "h-48 overflow-hidden hover:grayscale-0 md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center"
+setTimeout(() => {
+  imageClass.value = "grayscale h-48 overflow-hidden hover:grayscale-0 md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-home.jpg')] flex justify-center items-center"
+}, 250)
 </script>
