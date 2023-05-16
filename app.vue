@@ -70,7 +70,7 @@
         enter-from-class="translate-x-[0%] opacity-0"
         enter-active-class="transition ease-in-out duration-500"
       >
-        <div v-if="currentRoute === 'catalogo'" class="w-full border-t md:border-t-0 border-x md:border-x-0 md:border-l">
+        <div v-if="currentRoute === 'catalogo'" class="w-full md:border-t-0 border-x md:border-x-0 md:border-l">
           <NuxtPage />
         </div>
       </transition>
