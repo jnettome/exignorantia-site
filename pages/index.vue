@@ -12,12 +12,12 @@
           Entre nossas principais criações estão o cenário de fantasia moderna Mundo Invisível — uma realidade parecida com a nossa, habitado por seres misteriosos e magistas transumanistas, e o Sistema Signum, conjunto de regras de absorção simples utilizado em nossos jogos.
         </p>
 
-        <div class="block mt-16">
-          <a href="#" class="p-4 border rounded-full block mb-16 text-center bg-white text-black hover:bg-black hover:text-white">
+        <div class="block mt-32">
+          <a v-if="false" href="https://drive.google.com/drive/folders/1gxPPyTgBqHZk6XfDLCWKGBx0RlAFlkyw?usp=share_link" target="_blank" class="p-4 border rounded-full block mb-16 text-center bg-white text-black hover:bg-black hover:text-white">
             [PACOTE INTRODUTÓRIO FREE]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a v-if="false" href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [CONHEÇA NOSSO CATÁLOGO]
           </a>
 
@@ -27,6 +27,10 @@
 
           <a href="https://www.catarse.me/nihilorpg" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [CONHEÇA A CAMPANHA DO NOSSO ÚLTIMO LANÇAMENTO]
+          </a>
+
+          <a href="https://drive.google.com/drive/folders/1gxPPyTgBqHZk6XfDLCWKGBx0RlAFlkyw?usp=share_link" target="_blank" class="p-8 border block mb-8 text-center bg-white text-black hover:bg-black hover:text-white">
+            [PACOTE INTRODUTÓRIO FREE]
           </a>
         </div>
       </div>

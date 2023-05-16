@@ -17,18 +17,22 @@
         <p class="mb-4">
           Crie Relíquias únicas, objetos de poder que se desenvolvem com seus portadores, expanda sua influência, combata inimigos e tente sobreviver a mais um dia na Grande Guerra que transita entre sobrenatural e mundano.
         </p>
-        <div class="block mt-16">
+        <div class="block mt-32">
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://drive.google.com/file/d/1t7Uq8dbAGfTL0DY6rkiFJ8cXVUy8rkUF/view?usp=share_link" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE O STARTER GUIDE GRÁTIS]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [ENCOMENDE SEU COREBOOK FÍSICO OU DIGITAL]
           </a>
 
           <a href="https://drive.google.com/file/d/1dQNAAq8eojkGeLsLO1o50xXE5dH5M8jS/view" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE A FICHA EDITÁVEL GRÁTIS]
+          </a>
+
+          <a href="https://www.amazon.com.br/dp/B09PY482YP/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=38STOVF0HYN76&keywords=cogito+rpg&qid=1641525603&sprefix=cogito+rp%2Caps%2C223&sr=8-1" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+            [EBOOK AMAZON]
           </a>
         </div>
       </div>

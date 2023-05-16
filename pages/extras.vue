@@ -18,7 +18,9 @@
         </p>
 
         <p class="mb-4">
-          >> ADQUIRA SEU PACOTE
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="hover:text-underline">
+            >> ADQUIRA SEU PACOTE
+          </a>
         </p>
       </div>
 
@@ -36,7 +38,9 @@
         </p>
 
         <p class="mb-4">
-          >> ADQUIRA SEU PACOTE
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="hover:text-underline">
+            >> ADQUIRA SEU PACOTE
+          </a>
         </p>
       </div>
 
@@ -54,7 +58,9 @@
         </p>
 
         <p class="mb-4">
-          >> ADQUIRA SEU PACOTE
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="hover:text-underline">
+            >> ADQUIRA SEU PACOTE
+          </a>
         </p>
       </div>
     </div>

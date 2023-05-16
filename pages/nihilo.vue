@@ -17,24 +17,24 @@
         <p class="mb-4">
           Torne-se um Magus e leve sua obsessão às últimas consequências.Explore o desconhecido e dobre-o a sua vontade. Investigue um mundo escondido, lapide seu poder, faça do nada, tudo.
         </p>
-        <div class="block mt-16">
+        <div class="block mt-32">
 
           <a href="https://drive.google.com/file/d/18xE-HCXfzb7KpoLqy-zmfs8wfUqsSukG/view" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE O STARTER GUIDE GRÁTIS]
           </a>
 
-          <a href="#" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [ENCOMENDE SEU COREBOOK FÍSICO OU DIGITAL]
           </a>
 
-          <div class="flex w-full">
-            <a href="https://drive.google.com/file/d/1fZ5KnHHatzwhdzkdOxSz6lEjJFJb3sPU/view" target="_blank" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black border-r-0">
-              [BAIXE A FICHA]
-            </a>
-            <a href="https://open.spotify.com/album/6BR1QponccJHSuR2rAqWlG?si=vuB08Ot6T6eWb9bUF_rKWg" target="_blank" class="p-8 w-full border block mb-8 text-center hover:bg-white hover:text-black">
-              [TRILHA OFICIAL]
-            </a>
-          </div>
+          <!-- <div class="flex w-full"> -->
+          <a href="https://drive.google.com/file/d/1fZ5KnHHatzwhdzkdOxSz6lEjJFJb3sPU/view" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+            [BAIXE A FICHA]
+          </a>
+          <a href="https://open.spotify.com/album/6BR1QponccJHSuR2rAqWlG?si=vuB08Ot6T6eWb9bUF_rKWg" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+            [TRILHA OFICIAL]
+          </a>
+          <!-- </div> -->
         </div>
       </div>
     </div>

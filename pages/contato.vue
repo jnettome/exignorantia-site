@@ -37,6 +37,9 @@
           <a href="https://open.spotify.com/artist/4s5zFEcNLSgtv9j9mjqpnU?si=xUxvbzVQQ663llP7NRDPKA" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/spotify.png" alt="spotify" />
           </a>
+          <a href="https://medium.com/ex-ignorantia" target="_blank" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+            <img class="w-full h-auto" src="/img/icons/medium.png" alt="spotify" />
+          </a>
         </nav>
       </div>
 
@@ -46,10 +49,10 @@
         </p>
 
         <nav class="flex space-x-3">
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a href="mailto:exignorantia@gmail.com" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/email.png" alt="email" />
           </a>
-          <a href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
+          <a v-if="false" href="#" class="w-12 h-auto block bg-black transition hover:border-2 hover:border-black hover:invert hover:shadow-2xl hover:shadow-white rounded-full">
             <img class="w-full h-auto" src="/img/icons/whatsapp.png" alt="whatsapp" />
           </a>
         </nav>
