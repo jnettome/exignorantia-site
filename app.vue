@@ -66,6 +66,14 @@
           <NuxtPage />
         </div>
       </transition>
+      <transition
+        enter-from-class="translate-x-[0%] opacity-0"
+        enter-active-class="transition ease-in-out duration-500"
+      >
+        <div v-if="currentRoute === 'catalogo'" class="w-full">
+          <NuxtPage />
+        </div>
+      </transition>
     </nav>
 
   </div>
