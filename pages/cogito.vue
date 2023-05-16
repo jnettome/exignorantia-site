@@ -1,11 +1,11 @@
 <template>
   <div id="main" class="md:w-full md:h-screen md:flex overflow-auto md:overflow-hidden">
-    <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-cover bg-[url('/img/bg-cogito.jpg')] flex justify-center items-center">
+    <div id="fullImage" class="grayscale hover:grayscale-0 h-48 overflow-hidden md:border-r md:border-y border-b transition-all ease-in-out duration-500 md:w-1/2 md:h-screen bg-no-repeat bg-center bg-cover bg-[url('/img/bg-cogito.jpg')] flex justify-center items-center">
       <div class="p-12">
         <img src="/img/logo-cogito.png" alt="" class="w-full h-auto" />
       </div>
     </div>
-    <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 md:h-screen md:overflow-auto">
+    <div id="sampleRoute" class="max-h-[40vh] md:max-h-max md:w-1/2 md:h-screen md:overflow-auto md:border-y">
 
       <div class="p-4 md:p-16">
         <p class="mb-4">
