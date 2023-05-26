@@ -21,7 +21,7 @@
 
               <p class="mb-4">Por trás do pano de realidade imposta, o Mundo Invisível de Cogito é o cenário de uma batalha eterna travada entre combatentes milenares atrás da expansão de suas influências e poderes.</p>
 
-              <p class="mb-4">Cogito Ergo Sum SeculariaPenso, logo, sou mundano.</p>
+              <p class="mb-4">Cogito Ergo Sum Secularia. Penso, logo, sou mundano.</p>
 
               <p class="mb-4">O Corebook de Cogito possui 180 páginas contendo tudo que narradores e jogadores precisam para criar e interpretar Anjos, Caídos e Demônios, assim como interagir com o Mundo Invisível utilizando nosso sistema original, Signum.</p>
 
@@ -48,7 +48,7 @@
           <div class="md:w-1/2">
             <div class="p-12">
               <p class="mb-4">Desprenda-se de sua humanidade e torne-se um Magus — crie capacidades mágicas únicas, desbrave o Mundo Invisível e trilhe seu caminho na linha tênue que divide o imprevisível sobrenatural do mundano secular.</p>
-              <p class="mb-4">Ex Nihilo OmniaFaça do nada, tudo.</p>
+              <p class="mb-4">Ex Nihilo Omnia. Faça do nada, tudo.</p>
               <p class="mb-4">O Corebook de Nihilo possui 180 páginas contendo tudo que narradores e jogadores precisam para criar e interpretar Magus, assim como interagir com o Mundo Invisível utilizando nosso sistema original, Signum.</p>
               <div class="p-8 border block mb-8 text-center mt-12">
                 [COREBOOK FÍSICO & DIGITAL]
