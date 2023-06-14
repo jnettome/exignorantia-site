@@ -30,7 +30,7 @@
             [CONHEÇA A CAMPANHA DO NOSSO ÚLTIMO LANÇAMENTO]
           </a>
 
-          <a href="https://drive.google.com/drive/folders/1gxPPyTgBqHZk6XfDLCWKGBx0RlAFlkyw?usp=share_link" target="_blank" class="p-8 border block mb-8 text-center bg-white text-black hover:bg-black hover:text-white">
+          <a href="https://drive.google.com/uc?export=download&id=1kHDQ33BBoNX1KvaAlGUN6V7IVf2wa6pG" target="_blank" class="p-8 border block mb-8 text-center bg-white text-black hover:bg-black hover:text-white">
             [PACOTE INTRODUTÓRIO FREE]
           </a>
         </div>

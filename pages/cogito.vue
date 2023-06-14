@@ -19,11 +19,11 @@
         </p>
         <div class="block mt-32">
 
-          <a href="https://drive.google.com/file/d/1t7Uq8dbAGfTL0DY6rkiFJ8cXVUy8rkUF/view?usp=share_link" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://drive.google.com/uc?export=download&id=1FzAjJ-xWQmLEbxWuVlWtZX-gWE5Pwecs" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [BAIXE O STARTER GUIDE GRÁTIS]
           </a>
 
-          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
+          <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center hover:bg-white hover:text-black">
             [ENCOMENDE SEU COREBOOK FÍSICO OU DIGITAL]
           </a>
 
