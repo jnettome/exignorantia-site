@@ -63,6 +63,25 @@
           <h4>[MATERIAL INTRODUTÓRIO]</h4>
         </div>
 
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/angulo.jpg" alt="[Um Ângulo Humano / Introdução ao Mundo Invisível]" class="w-64 h-auto mx-auto border">
+              <!-- border -->
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[Um Ângulo Humano / Introdução ao Mundo Invisível]</p>
+              <p class="mb-4">Assuma o papel de personagens que jamais poderiam sonhar com a estranheza e perigos que estão prestes a encontrar. Crie narrativas inspiradas em seus filmes, séries, jogos e livros de terror e sci-fi favoritos. Sobreviverão os mortais despreparados ao encontro com o Mundo Invisível?</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL] [GRÁTIS]
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="md:flex md:divide-x">
           <div class="md:w-1/2">
             <div class="text-center p-12 flex items-center h-full">
@@ -229,7 +248,7 @@
               <p class="mb-4">O material conta com guias para criação de diversas Narrativas, em diversos estilos de jogo, à partir da premissa base, permitindo incontáveis criações e experiências.</p>
 
               <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
-                [DIGITAL] [EM BREVE]
+                [DIGITAL]
               </a>
             </div>
           </div>
@@ -495,7 +514,7 @@
               <p class="mb-4">Compendio de Magus que habitram o Mundo Invisível, descrevendo suas histórias, capacidades e jornadas mágicas. Excelente para Narradores como fonte de NPCs prontos e inspirações para novas criações, assim como Jogadores que desejam utilizar personagens variados sem qualquer preparação prévia.</p>
 
               <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
-                [DIGITAL] [EM BREVE]
+                [DIGITAL]
               </a>
             </div>
           </div>
