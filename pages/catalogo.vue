@@ -565,7 +565,7 @@
           </div>
         </div>
 
-        <div class="md:flex border-b md:divide-x">
+        <div class="md:flex md:divide-x">
           <div class="md:w-1/2">
             <div class="text-center p-12 flex items-center h-full">
               <img src="/img/catalog/refatoracao.png" alt="REFATORAÇÃO" class="w-64 h-auto mx-auto">
@@ -586,7 +586,131 @@
         </div>
       </div>
 
+      <div>
+        <div class="p-4 text-center border-y">
+          <h4>[NARRATIVAS PRONTAS - MUNDO INVISÍVEL]</h4>
+        </div>
 
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-inextricabilis.png" alt="INEXTRICABILIS" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[INEXTRICABILIS | Narrativa para Sempiternum]</p>
+              <p class="mb-4">Esta é a história de quatro alunos da escola Sempiternum que, após praticarem bullying, acabaram em detenção. As ações despertaram a atenção da Diretora, que acredita em transformar erros em oportunidades de crescimento.</p>
+              <p class="mb-4">Nesta narrativa, criada por Rafa “Worldbuilder” Campos, ela irá propor atividades enriquecedoras e transformadoras, promovendo aprendizado e mudanças positivas para os envolvidos.</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:flex md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-comboio-punk.png" alt="COMBOIO PUNK" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[COMBOIO PUNK | Narrativa para DiaboliK]</p>
+              <p class="mb-4">Nesta jornada eletrizante pelo abismo digital do aplicativo DiaboliK, os participantes assumem o papel de 4 usuários dessa plataforma sombria, os PUNKS, que colocarão suas vidas em risco sobre as rodas de suas motos arcanas para defender o trailer McMouse das terríveis gangues da cidade!</p>
+              <p class="mb-4">A QUEST, escrita por Salomão Punk para a campanha Expansão do Mundo Invisível, vem com personagens totalmente prontos, 4 encontros frenéticos e um big boss para o grupo enfrentar ao final desta violenta jornada urbana.</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="p-4 text-center border-y">
+          <h4>[SUPLEMENTOS DE JOGO - MUNDO INVISÍVEL]</h4>
+        </div>
+
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-diabolik.png" alt="DIABOLIK" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[DIABOLIK | Suplemento]</p>
+              <p class="mb-4">DiaboliK é um aplicativo de origem Infernal, focado em atividades violentas transmitidas via streaming para audiências ávidas do Mundo Invisível. Além de um suplemento de jogo, DiaboliK também introduz mecânicas para conectar o jogo com live streams da Twitch e YouTube para que a audiência os acompanhe, comente, e até mesmo influencie.</p>
+              <p class="mb-4">O material possui exemplos de Modos de Jogo e Quests, regras para simular lives em sua mesa ou levar a narrativa pro mundo digital.</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-sempiternum.png" alt="SEMPITERNUM" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[SEMPITERNUM | Suplemento]</p>
+              <p class="mb-4">Sempiternum é uma expansão do Mundo Invisível onde seres extraordinários aprendem sobre o mundo mundano onde vivemos, o Invisível do qual vieram, e, claro, sobre si mesmos e suas jornadas vindouras. Você, caro aluno, é um desses seres extraordinários.</p>
+              <p class="mb-4">O material inclui exemplos de matérias escolares e guias para criação de aulas originais, descrições da ilha e seus pontos de interesse, exemplos de alunos e professores que você encontrará pelos corredores da escola, além das regras para simular anos letivos completos e recompensar o aprendizado.</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-mystica-virentia.png" alt="MYSTICA VIRENTIA" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[MYSTICA VIRENTIA | Suplemento]</p>
+              <p class="mb-4">O Mystica Virentia, ou Vegetação Mística, é um compêndio com mais de 40 sementes, flores, frutos, plantas e árvores que possuem propriedades mágicas que podem ser consumidas, utilizadas como ingredientes, ou que devem ser absolutamente evitadas a qualquer custo.</p>
+              <p class="mb-4">Um material que provém incríveis possibilidades para sua mesa, além de existir no próprio cenário para acesso direto in-game pelos personagens. </p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:flex border-b md:divide-x">
+          <div class="md:w-1/2">
+            <div class="text-center p-12 flex items-center h-full">
+              <img src="/img/catalog/mi-marquis.png" alt="MARQUIS" class="w-64 h-auto mx-auto border">
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="p-12">
+              <p class="mb-4">[MARQUIS | Suplemento]</p>
+              <p class="mb-4">Marquis é uma revista de moda, cultura e tendências arcanas e sobrenaturais vinda diretamente do Mundo Invisível. Pense na Vogue da nossa realidade, agora acrescente todas as loucas possibilidades da MAGICKA!</p>
+              <p class="mb-4">Este novo material digital conta com 26 páginas e 50 ilustrações de Iggy Hervas, colocando em suas mãos um verdadeiro pedaço do cenário.</p>
+
+              <a href="https://forms.gle/ybGHjQiKrw5dnnit6" target="_blank" class="p-8 border block mb-8 text-center mt-12">
+                [DIGITAL]
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
